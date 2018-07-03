@@ -12,5 +12,4 @@ function collectSameElements(collectionA, objectB) {
               }
             }
             return result;
-  return '实现练习要求，并改写该行代码。';
 }
