@@ -5,8 +5,9 @@ function collectSameElements(collectionA, collectionB) {
             var result = new Array();
             //将b集合的每个元素转为字符串
             for(var i=0;i<collectionB.length;i++){
-                collectionB[i]=collectionB[0].toString();
+                collectionB[i]=collectionB[i].toString();
             }
+
             for(var i=0;i<collectionA.length;i++)
             {
                for(var j=0;j<collectionB.length;j++){
