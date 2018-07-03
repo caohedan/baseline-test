@@ -7,7 +7,6 @@ function collectSameElements(collectionA, collectionB) {
             for(var i=0;i<collectionB.length;i++){
                 collectionB[i]=collectionB[0].toString();
             }
-            var c=collectionB[0].toString();
             for(var i=0;i<collectionA.length;i++)
             {
                for(var j=0;j<collectionB.length;j++){
